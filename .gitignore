@@ -1,0 +1,17 @@
+# Virtual environments
+.venv/
+rl_env/
+
+# Large datasets
+data/*.csv
+data/*.zip
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Artifacts
+artifacts/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
