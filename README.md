@@ -11,19 +11,22 @@ business profit.
 #Project Structure
 
 Shodh-Project/
-│── data/                         ← Raw dataset (ignored in GitHub)
-│── notebooks/
-│   ├── 1_eda.ipynb              ← Exploratory Data Analysis notebook
-│   ├── 2_supervised_model.ipynb ← Deep learning training notebook
-│   └── 3_offline_rl.ipynb       ← Offline RL notebook
-│── src/
-│   ├── preprocess.py            ← Cleaning, feature engineering, encoding
-│   ├── dl_model.py              ← MLP classifier model
-│   ├── train_supervised.py      ← Train + evaluate DL model
-│   ├── rl_env.py                ← Defines RL states, actions, rewards
-│   ├── train_rl.py              ← RL dataset preparation + fallback policy EPV
-│   └── train_rl_d3rlpy.py       ← (Optional) Train offline RL using d3rlpy
-│── artifacts/                   ← Saved models & preprocessors
+#data/ ← Raw dataset (ignored in GitHub)
+
+#notebooks/
+   ├── 1_eda.ipynb    ← Exploratory Data Analysis notebook
+   ├── 2_supervised_model.ipynb ← Deep learning training notebook
+   └── 3_offline_rl.ipynb   ← Offline RL notebook
+
+#src/
+   ├── preprocess.py            ← Cleaning, feature engineering, encoding
+   ├── dl_model.py              ← MLP classifier model
+   ├── train_supervised.py      ← Train + evaluate DL model
+   ├── rl_env.py                ← Defines RL states, actions, rewards
+   ├── train_rl.py              ← RL dataset preparation + fallback policy EPV
+   └── train_rl_d3rlpy.py       ← (Optional) Train offline RL using d3rlpy
+
+# artifacts/    ← Saved models & preprocessors
 │── final_report_full_with_analysis.pdf
 │── requirements.txt
 │── README.md
@@ -165,3 +168,4 @@ python src/train_rl.py
 #Author
 Lakshya Sharma
 Machine Learning & Reinforcement Learning Project — Shodh Assignment
+
